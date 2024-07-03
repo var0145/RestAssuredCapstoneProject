@@ -12,10 +12,10 @@ import io.restassured.response.ResponseBody;
 import io.restassured.specification.RequestSpecification;
 
 
-public class getProductbyID {
+public class getProductbycategory {
 
 	@Test
-    public void getProductbyID()
+    public void getProductbycategory()
 	 {  
 		// Specify the base URL to the RESTful web service
 		RestAssured.baseURI = "http://localhost:8081/medicare/show/category/2/products";
